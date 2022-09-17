@@ -1,3 +1,50 @@
+.visually-hidden
+    position: absolute
+    width: 1px
+    height: 1px
+    margin: -1px
+    border: 0
+    padding: 0
+    white-space: nowrap
+    clip-path: inset(100%)
+    clip: rect(0 0 0 0)
+    overflow: hidden
+
+    
 body
-    background: blue
-    color: white
+    box-sizing: border-box
+    font-family: 'Poppins', sans-serif
+    font-size: 20px
+    line-height: 30px
+    color: #fff
+    background: #3f6142
+    padding: 0
+    width: 1920px
+    position: relative
+
+img 
+    max-width: 100%
+    height: auto
+
+.header
+    position: absolute
+    top: 32px
+    // display: flex
+    // align-items: center
+    // justify-content: space-between
+
+.navigation__list,
+.controls__list
+    display: flex
+    align-items: center
+    list-style-type: none
+    padding: 0
+    margin: 0
+
+.navigation__link
+    text-decoration: none
+    color: #fff
+
+.controls__button
+    background: none
+    border: none
