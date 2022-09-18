@@ -12,57 +12,59 @@
 </head>
 <body>
     <header class="header">
-        <a class="logo" href="#">
-            <img src="img/logo.png" width="146" height="60" alt="Logotype">
-        </a>
-
-        <nav class="navigation">
-            <ul class="navigation__list">
-                <li class="navigation__item">
-                    <a class="navigation__link navigation__link--current" href="index.html">Home</a>
+        <div class="header__wrapper">
+            <a class="logo" href="#">
+                <img src="img/logo.png" width="146" height="60" alt="Logotype">
+            </a>
+    
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item">
+                        <a class="navigation__link navigation__link--current" href="index.html">Home</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">About Us</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a class="navigation__link" href="#">Goals</a>
+                    </li>
+                </ul>
+            </nav>
+    
+            <ul class="controls__list">
+                <li class="controls__item">
+                    <button class="controls__button" type="button">
+                        <span class="visually-hidden">Search</span>
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_5_83)">
+                                <path class="icon" d="M30.5256 26.4414L24.6834 20.5991C24.4197 20.3354 24.0622 20.1889 23.6872 20.1889H22.7321C24.3494 18.1204 25.3104 15.5187 25.3104 12.6884C25.3104 5.95548 19.8549 0.5 13.122 0.5C6.38907 0.5 0.933594 5.95548 0.933594 12.6884C0.933594 19.4213 6.38907 24.8768 13.122 24.8768C15.9523 24.8768 18.554 23.9158 20.6225 22.2985V23.2536C20.6225 23.6286 20.769 23.9861 21.0327 24.2498L26.8749 30.092C27.4258 30.6428 28.3165 30.6428 28.8614 30.092L30.5197 28.4337C31.0706 27.8829 31.0706 26.9922 30.5256 26.4414ZM13.122 20.1889C8.9791 20.1889 5.62144 16.8371 5.62144 12.6884C5.62144 8.54551 8.97324 5.18784 13.122 5.18784C17.2649 5.18784 20.6225 8.53965 20.6225 12.6884C20.6225 16.8313 17.2707 20.1889 13.122 20.1889Z" fill="white"/>
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_5_83">
+                                    <rect class="icon" width="35" height="35" fill="white" transform="translate(0.933594 0.5)"/>
+                                </clipPath>
+                            </defs>
+                        </svg>
+                    </button> 
                 </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">About Us</a>
+                <li class="controls__item">
+                    <button class="controls__button" type="button">
+                        <span class="visually-hidden">Login</span>
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="icon" d="M18.4336 6.33333C19.9807 6.33333 21.4645 6.94791 22.5584 8.04187C23.6524 9.13583 24.267 10.6196 24.267 12.1667C24.267 13.7138 23.6524 15.1975 22.5584 16.2915C21.4645 17.3854 19.9807 18 18.4336 18C16.8865 18 15.4028 17.3854 14.3088 16.2915C13.2149 15.1975 12.6003 13.7138 12.6003 12.1667C12.6003 10.6196 13.2149 9.13583 14.3088 8.04187C15.4028 6.94791 16.8865 6.33333 18.4336 6.33333ZM18.4336 20.9167C24.8795 20.9167 30.1003 23.5271 30.1003 26.75V29.6667H6.76697V26.75C6.76697 23.5271 11.9878 20.9167 18.4336 20.9167Z" fill="white"/>
+                        </svg>
+                    </button>
                 </li>
-                <li class="navigation__item">
-                    <a class="navigation__link" href="#">Goals</a>
+                <li class="controls__item">
+                    <button class="controls__button" type="button">
+                        <span class="visually-hidden">Open menu</span>
+                        <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path class="icon" fill-rule="evenodd" clip-rule="evenodd" d="M6.184 9.25a1.75 1.75 0 0 1 1.75-1.75h21a1.75 1.75 0 0 1 0 3.5h-21a1.75 1.75 0 0 1-1.75-1.75Zm0 8.75a1.75 1.75 0 0 1 1.75-1.75h21a1.75 1.75 0 0 1 0 3.5h-21A1.75 1.75 0 0 1 6.184 18Zm0 8.75A1.75 1.75 0 0 1 7.934 25h10.5a1.75 1.75 0 0 1 0 3.5h-10.5a1.75 1.75 0 0 1-1.75-1.75Z" fill="#fff"/>
+                        </svg>
+                    </button>
                 </li>
             </ul>
-        </nav>
-
-        <ul class="controls__list">
-            <li class="controls__item">
-                <button class="controls__button" type="button">
-                    <span class="visually-hidden">Search</span>
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0_5_83)">
-                            <path d="M30.5256 26.4414L24.6834 20.5991C24.4197 20.3354 24.0622 20.1889 23.6872 20.1889H22.7321C24.3494 18.1204 25.3104 15.5187 25.3104 12.6884C25.3104 5.95548 19.8549 0.5 13.122 0.5C6.38907 0.5 0.933594 5.95548 0.933594 12.6884C0.933594 19.4213 6.38907 24.8768 13.122 24.8768C15.9523 24.8768 18.554 23.9158 20.6225 22.2985V23.2536C20.6225 23.6286 20.769 23.9861 21.0327 24.2498L26.8749 30.092C27.4258 30.6428 28.3165 30.6428 28.8614 30.092L30.5197 28.4337C31.0706 27.8829 31.0706 26.9922 30.5256 26.4414ZM13.122 20.1889C8.9791 20.1889 5.62144 16.8371 5.62144 12.6884C5.62144 8.54551 8.97324 5.18784 13.122 5.18784C17.2649 5.18784 20.6225 8.53965 20.6225 12.6884C20.6225 16.8313 17.2707 20.1889 13.122 20.1889Z" fill="white"/>
-                        </g>
-                        <defs>
-                            <clipPath id="clip0_5_83">
-                                <rect width="35" height="35" fill="white" transform="translate(0.933594 0.5)"/>
-                            </clipPath>
-                        </defs>
-                    </svg>
-                </button> 
-            </li>
-            <li class="controls__item">
-                <button class="controls__button" type="button">
-                    <span class="visually-hidden">Login</span>
-                    <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M18.4336 6.33333C19.9807 6.33333 21.4645 6.94791 22.5584 8.04187C23.6524 9.13583 24.267 10.6196 24.267 12.1667C24.267 13.7138 23.6524 15.1975 22.5584 16.2915C21.4645 17.3854 19.9807 18 18.4336 18C16.8865 18 15.4028 17.3854 14.3088 16.2915C13.2149 15.1975 12.6003 13.7138 12.6003 12.1667C12.6003 10.6196 13.2149 9.13583 14.3088 8.04187C15.4028 6.94791 16.8865 6.33333 18.4336 6.33333ZM18.4336 20.9167C24.8795 20.9167 30.1003 23.5271 30.1003 26.75V29.6667H6.76697V26.75C6.76697 23.5271 11.9878 20.9167 18.4336 20.9167Z" fill="white"/>
-                    </svg>
-                </button>
-            </li>
-            <li class="controls__item">
-                <button class="controls__button" type="button">
-                    <span class="visually-hidden">Open menu</span>
-                    <svg width="36" height="36" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path fill-rule="evenodd" clip-rule="evenodd" d="M6.184 9.25a1.75 1.75 0 0 1 1.75-1.75h21a1.75 1.75 0 0 1 0 3.5h-21a1.75 1.75 0 0 1-1.75-1.75Zm0 8.75a1.75 1.75 0 0 1 1.75-1.75h21a1.75 1.75 0 0 1 0 3.5h-21A1.75 1.75 0 0 1 6.184 18Zm0 8.75A1.75 1.75 0 0 1 7.934 25h10.5a1.75 1.75 0 0 1 0 3.5h-10.5a1.75 1.75 0 0 1-1.75-1.75Z" fill="#fff"/>
-                    </svg>
-                </button>
-            </li>
-        </ul>
+        </div>
     </header>
 </body>
 </html>
