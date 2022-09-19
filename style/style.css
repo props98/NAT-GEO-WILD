@@ -36,7 +36,8 @@ img {
 
 .header {
   height: 100vh;
-  background: url(../img/bg-lion.jpg) center no-repeat;
+  background: url(../img/bg-lion.jpg) center bottom no-repeat;
+  position: relative;
 }
 
 .header__wrapper {
@@ -114,4 +115,52 @@ img {
 .controls__button:hover .icon,
 .controls__button:focus .icon {
   fill: yellow;
+}
+
+.play__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 189px;
+}
+
+.mouse__svg {
+  margin-bottom: 13px;
+}
+
+.play__button {
+  padding: 17px 47px 17px 47px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: none;
+  border-radius: 20px;
+  background: #406343;
+  -webkit-box-shadow: -25px 0px 50px rgba(0, 0, 0, 0.1), 25px -25px 50px rgba(0, 0, 0, 0.1);
+          box-shadow: -25px 0px 50px rgba(0, 0, 0, 0.1), 25px -25px 50px rgba(0, 0, 0, 0.1);
+}
+
+.play__button span {
+  margin-left: 20px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
 }/*# sourceMappingURL=style.css.map */
